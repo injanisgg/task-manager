@@ -5,8 +5,8 @@ A modern task management application built with React + TypeScript (Frontend) an
 ## 🚀 Live Demo
 
 - **Frontend**: [https://task-manager-ui.vercel.app](https://task-manager-ui.vercel.app)
-- **Backend API**: [https://task-manager-api.onrender.com](https://task-manager-api.onrender.com)
-- **API Docs**: [https://task-manager-api.onrender.com/docs](https://task-manager-api.onrender.com/docs)
+- **Backend API**: Running locally on `http://localhost:8000`
+- **API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ## 📋 Features
 
@@ -36,13 +36,11 @@ A modern task management application built with React + TypeScript (Frontend) an
 - Uvicorn (ASGI server)
 
 ## 📁 Project Structure
-
 ```
 task-manager/
 ├── backend/          # FastAPI backend
 │   ├── main.py
-│   ├── requirements.txt
-│   └── render.yaml
+│   └── requirements.txt
 ├── frontend/         # React frontend
 │   ├── src/
 │   ├── package.json
@@ -53,7 +51,6 @@ task-manager/
 ## 🏃‍♂️ Running Locally
 
 ### Backend
-
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -63,7 +60,6 @@ python main.py
 Backend runs on: http://localhost:8000
 
 ### Frontend
-
 ```bash
 cd frontend
 npm install
@@ -75,7 +71,7 @@ Frontend runs on: http://localhost:5173
 ## 🌐 Deployment
 
 - **Frontend**: Deployed on Vercel
-- **Backend**: Deployed on Render
+- **Backend**: Running locally (default port 8000)
 
 ## 📝 API Endpoints
 

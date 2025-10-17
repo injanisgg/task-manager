@@ -35,15 +35,15 @@ const Header: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-6">
             {/* Stats */}
             <div className="flex gap-4 text-sm">
-              <div className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur-sm">
+              <div className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur-sm text-center">
                 <div className="font-semibold">{tasks.length}</div>
                 <div className="text-xs text-blue-100">Total</div>
               </div>
-              <div className="bg-green-500/30 px-4 py-2 rounded-lg backdrop-blur-sm">
+              <div className="bg-green-500/30 px-4 py-2 rounded-lg backdrop-blur-sm text-center">
                 <div className="font-semibold">{completedCount}</div>
                 <div className="text-xs text-green-100">Completed</div>
               </div>
-              <div className="bg-yellow-500/30 px-4 py-2 rounded-lg backdrop-blur-sm">
+              <div className="bg-yellow-500/30 px-4 py-2 rounded-lg backdrop-blur-sm text-center">
                 <div className="font-semibold">{pendingCount}</div>
                 <div className="text-xs text-yellow-100">Pending</div>
               </div>

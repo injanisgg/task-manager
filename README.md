@@ -4,7 +4,7 @@ A modern task management application built with React + TypeScript (Frontend) an
 
 ## 🚀 Live Demo
 
-- **Frontend**: [https://task-manager-ui.vercel.app](https://task-manager-ui.vercel.app)
+- **Frontend**: [https://injani-task-manager.vercel.app/](https://injani-task-manager.vercel.app/)
 - **Backend API**: Running locally on `http://localhost:8000`
 - **API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
 
